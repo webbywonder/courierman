@@ -15,12 +15,11 @@ class AppServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot() {
-        $data = [];
-        $genset = new GeneralSetting;
-        if ($genset->exists) {
+        try {
             $data['gs'] = GeneralSetting::firstOrFail();
+        } catch (\Throwable $th) {
+            //throw $th;
         }
-        
         Schema::defaultStringLength(191);
 
         view::share($data);
