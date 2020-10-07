@@ -1,0 +1,53 @@
+/*override bootstrap toggle css*/
+
+.toggle-handle {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 0;
+    border-width: 0 1px;
+    background: #fff;
+}
+.bg-custom-background{
+    background: #173C5A;
+}
+
+.btn-primary{
+    background: #173C5A;
+    border: 1px solid #173C5A;
+}
+.mark{
+    color: red;
+}
+.border-success {
+    border-color: #173C5A !important;
+}
+
+.bg-info {
+
+    
+	height: 100vh;
+	background: url('login_bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+
+}
+
+.logo{
+    text-align: center;
+    padding:25px;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.branch_income td a{
+    text-decoration: none !important;
+}

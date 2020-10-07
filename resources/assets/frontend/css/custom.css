@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2019, 12:39:45 PM
+    Author     : THESOFTKING
+*/
+
+.contact-input-field{
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 4px;
+    color: #7c7c90;
+    border: 0;
+    background: #FAFAFA;
+}
+
+.contact-info-area {
+    padding: 120px 0 120px 0;
+    background: #F1F1F1;
+}
+
+.contact-info-area .left-content-area .inner-section-title .title {
+    color: rgb(238, 0, 95);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 23px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+.error-404-content-area .left-content-area .img-wrapper img {
+    border: none;
+}
+
+.aboutus-title{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.faq-page-content-area {
+    padding: 120px 0 60px 0;
+}
+
+.yogaclasses {
+    padding: 120px 0px 120px;
+    background: #F6F6F6;
+}
+
+.sectionTheading {
+    text-align: center;
+    margin-top: -33px;
+}
+
+.sectionTheading h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.invoice-search{
+    padding: 1.8rem 1rem;
+}
+.submitBtnWrapper {
+    width: 100%;
+    height: 58px;
+    background: #163B59;
+}
+
+.submitBtnWrapper button:hover {
+    width: 100%;
+    height: 58px;
+    background-color: rgb(238, 0, 95);
+    box-shadow: 0px 8px 16px 0px rgba(238, 0, 95, 0.5);
+}
+
+.submitBtnWrapper button{
+    padding-top: 9px;
+    font-size: 20px;
+}
+.footer {
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(23, 60, 90);
+}
+.copyRightArea {
+    margin-top: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 25px 0px 28px;
+}
+.footer_text{
+    margin-top: 30px;
+}
+.footer .socialLinks {
+    margin-top: 26px;
+}
+.yogabreadcrumb {
+    padding: 76px 0px 76px;
+    background: url(../images/breadcrumb.jpg) no-repeat center;
+    background-attachment: scroll;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.yogabreadcrumb .bcoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.sectionOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+}
+.courier-result{
+    margin-bottom: 0px;
+}
+.error-404-content-area {
+    padding: 0px 0px 80px 0px;
+    margin-top: -71px;
+}
