@@ -106,7 +106,7 @@ $ docker ps -aq --no-trunc -f status=exited | xargs docker rm
 ```
 
 ### Access App
-http://127.0.0.1:8080/admin/login
+http://127.0.0.1:8080/
 
 ### Access DB
 ```
@@ -117,8 +117,9 @@ Port : 33061
 ```
 
 ## Screenshots
-<img src="files/media/screenshot-3.png">
-<img src="files/media/screenshot.png">
-<img src="files/media/screenshot-2.png">
+<img src="resources/screenshots/login.png">
+<img src="resources/screenshots/admin-dashboard.png">
+<img src="resources/screenshots/manager-dashboard.png">
+<img src="resources/screenshots/staff-dashboard.png">
 
 That's all Folks. Enjoy.
