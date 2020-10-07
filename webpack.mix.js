@@ -12,4 +12,15 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css')
+   .copy('resources/assets/admin', 'public/assets/admin')
+   .copy('resources/assets/css', 'public/assets/css')
+   .copy('resources/assets/frontend', 'public/assets/frontend')
+   .copy('resources/assets/js', 'public/assets/js')
+   .copy('resources/assets/staff', 'public/assets/staff')
+   .copy('resources/assets/user', 'public/assets/user');
+
+if (mix.config.inProduction) {
+   mix.version();
+   mix.minify();
+}

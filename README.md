@@ -61,6 +61,11 @@ php artisan key:generate
 php artisan storage:link
 ```
 
+## Compile Assets
+```bash
+npm run dev
+```
+
 ## Start the Engine
 Tighten up the seatbelt and You're ready to ride...
 ```
